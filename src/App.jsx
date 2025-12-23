@@ -1,12 +1,7 @@
-import React from 'react';
-import UserData from './UserData';
+import Component1 from "./components/Component1";
 
 function App() {
-  return (
-    <div className="App">
-      <UserData />
-    </div>
-  );
+  return <Component1 />;
 }
 
 export default App;
